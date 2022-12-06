@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Zen+Dots&display=swap');
+/* Resets  */
+*,*::after,*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Zen Dots', cursive;
+}
+
+/* Gneral styles */
+body{
+    height: 100vh;
+    display: grid;
+    place-content: center;
+    background-image: url(./triangle-geometric-black-3d-background-dark-mosaic-geometry-pattern-polygon-shape-pattern-backdrop-triangular-creative-template-abstract-modern-wallpaper-design-illustration-vector.jpg);
+}
+.container{
+    display: grid;
+    place-content: center;
+    grid-template-columns: repeat(1fr);
+    gap: 1rem;
+
+}
+
+.computer,
+.user,
+.res{
+    color: bisque;
+}
+
+.btn-wrapper{
+    display: grid;
+    grid-auto-flow: column;
+    gap: .7rem;
+}
+
+.btn{
+    background-color: #444;
+    color: whitesmoke;
+    letter-spacing: 1px;
+    padding: 4px;
+    border-radius: 8px;
+    border: 1px solid black;
+    box-shadow: 1px 1px 3px wheat;
+
+}
+
+.btn:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    background-color: wheat;
+    color: #000;
+    text-shadow: 2px 2px 6px #444;
+}
+
+
